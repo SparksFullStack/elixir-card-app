@@ -8,8 +8,8 @@ defmodule Cards do
     Enum.shuffle(deck)
   end
 
-  def shuffle do
-    "howdy"
+  def contains?(deck, card) do
+    Enum.member?(deck, card)
   end
 
 end
